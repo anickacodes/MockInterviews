@@ -1,0 +1,46 @@
+primitive 
+data that is not an object and has no methods or properties.
+
+
+string
+number
+bigint
+boolean
+undefined
+symbol
+null
+
+for (let i = 0; i < 5; i++): In this loop, the variable i is declared using let, 
+which makes it block-scoped. This means that the variable i is only accessible
+ within the scope of the for loop. Once the loop is exited, the variable i no 
+ longer exists.
+
+for (i = 0; i < 5; i++): In this loop, the variable i is not explicitly declared 
+with let or var. As a result, it becomes implicitly global or takes on the scope 
+of the nearest enclosing function. If used within a function, the variable i will 
+be accessible throughout the entire function, and if used outside any function, 
+it becomes a global variable accessible globally.
+
+A higher-order function is a function that either takes one or more functions as arguments or returns a function as its result. These functions are used to abstract or generalize operations, working with functions as data. Examples of higher-order functions include map, filter, and reduce in JavaScript, which take a function as an argument and apply it in some way.
+
+A callback function, on the other hand, is a function that is passed into another function as an argument and is expected to be executed at a later time. The function that receives the callback may or may not be a higher-order function. Callbacks are used for asynchronous operations like event handling, API calls, or timers. For example, in an event listener, the function passed to handle the event is a callback.
+
+Spread Operator (...)
+Usage:
+
+In function calls or array literals.
+What it does:
+
+Allows an iterable (like an array or a string) to be expanded or spread into individual elements.
+
+
+Rest Parameter (...)
+Usage:
+
+In function parameter lists.
+What it does:
+
+Collects the remaining arguments into an array. It gathers the "rest" of the parameters into a single array.
+
+Variables declared with the const keyword cannot be reassigned. However, elements in an array declared with const remain mutable. Meaning that we can change the contents of a const array, but cannot reassign a new array or a different value
+
